@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #071d33, #0c4276);
+    color: white;
+}
+
+/* HERO */
+.hero {
+    padding: 120px 0;
+    background: url('blue.png') center/cover no-repeat;
+}
+.hero h1, .hero p { text-shadow: 0 3px 10px rgba(0,0,0,0.5); }
+
+/* GENRE CARD */
+.genre-card {
+    background: rgba(255,255,255,0.15);
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.genre-card:hover {
+    background: rgba(255,255,255,0.25);
+    transform: translateY(-5px);
+}
+
+/* SONG CARD */
+.song-card {
+    background: rgba(255,255,255,0.12);
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.song-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255,255,255,0.2);
+}
+.song-card img {
+    height: 170px;
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    opacity: 0.8;
+}

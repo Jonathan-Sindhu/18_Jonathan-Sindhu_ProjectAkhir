@@ -1,0 +1,25 @@
+.navbar {
+    background: rgba(255, 255, 255, 0.12) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 15px 20px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.navbar-brand .logo {
+    width: 55px;
+    height: 55px;
+    filter: drop-shadow(0 0 8px rgba(30,144,255,0.5));
+}
+
+.nav-link {
+    color: #d4e7ff !important;
+    font-weight: 600;
+    margin-right: 18px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: white !important;
+    text-shadow: 0 0 10px rgba(30,144,255,0.6);
+}

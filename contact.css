@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #062045;
+    margin: 0;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #000 !important;
+}
+.logo {
+    width: 48px;
+}
+.nav-link {
+    color: #e8f1ff !important;
+    transition: .3s;
+}
+.nav-link:hover {
+    color: #76a9ff !important;
+}
+
+
+.logo {
+    width: 45px;
+}
+
+/* CONTACT FORM */
+.contact-form {
+    max-width: 550px;
+    margin: 70px auto;
+    background: #0a2d5c;
+    border-radius: 15px;
+    transition: 0.3s;
+    color: white;
+}
+.contact-form:hover {
+    transform: translateY(-4px);
+}
+.form-control {
+    border-radius: 10px;
+}
+.btn-primary {
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 40px;
+}

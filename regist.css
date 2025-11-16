@@ -1,0 +1,120 @@
+/* ===== Global Page Styling ===== */
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    background: linear-gradient(135deg, #0a2a43, #0e4d92);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+/* ===== Container ===== */
+.conlog {
+    width: 420px;
+    padding: 35px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+/* ===== Heading ===== */
+.conlog h2 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+/* ===== Remove Fieldset Border ===== */
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* ===== Table Styling ===== */
+table {
+    width: 100%;
+}
+
+td {
+    padding: 8px 0;
+    color: #e4eeff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* ===== Input ===== */
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    backdrop-filter: blur(10px);
+    transition: 0.3s ease;
+}
+
+input::placeholder {
+    color: #d0d0d0;
+}
+
+input:focus {
+    outline: none;
+    background: rgba(255,255,255,0.3);
+    box-shadow: 0 0 10px rgba(30,144,255,0.5);
+}
+
+/* ===== Checkbox ===== */
+input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 6px;
+}
+
+/* ===== Button ===== */
+button {
+    width: 90%;
+    padding: 14px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 12px;
+    background: #1e90ff;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #156ed8;
+    box-shadow: 0 0 12px rgba(30,144,255,0.7);
+}
+
+/* ===== Bottom Text ===== */
+.conlog p {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #e6eaff;
+}
+
+.conlog a {
+    color: #bcd8ff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.conlog a:hover {
+    color: white;
+    text-decoration: underline;
+}
